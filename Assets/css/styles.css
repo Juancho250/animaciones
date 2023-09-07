@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/yellow-4350140.jpg);
+    position:static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    width: 25vh;
+    height: 15vh;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    height: 25vh;
+    border: solid black 1px;
+    transition: .5s;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+h5{
+    overflow: hidden;
+    width: 25vh;
+    height: 30vh
+}
+.tarjeta:hover{
+    width: 30vh;
+    height: 35vh;
+    border: solid black 1px;
+    transition: .5s;
+    background: linear-gradient(5deg, rgb(47, 47, 255), rgb(188, 188, 233), rgb(255, 255, 255));
+}
